@@ -1,0 +1,178 @@
+sentiment,gender,age,emotion,sufferingChronic,severity,Remedies
+positive,male,>=40,anger,no,Mild,Not trying any remedies - Struggling
+negative,male,30-39,awe,no,Mild,Not trying any remedies - Struggling
+neutral,female,30-39,annoyance,no,Moderate,Not trying any remedies - Looking for help
+neutral,female,<=18,negative-fear,no,Moderate,Not trying any remedies - Looking for help
+positive,female,<=18,awe,yes,Moderate,Not trying any remedies - Looking for help
+neutral,male,>=40,negative-fear,no,Moderate,Trying Therapies remedies including drugs
+negative,female,<=18,awe,no,Normal,Not trying any remedies - Calm
+positive,male,<=18,awe,yes,severe,Not trying any remedies - Struggling
+neutral,female,19-29,sadness,no,Mild,Not trying any remedies - Struggling
+negative,female,>=40,awe,yes,Moderate,Trying Therapies remedies including drugs
+positive,male,19-29,amusement,yes,Mild,Not trying any remedies - Struggling
+negative,male,30-39,amusement,no,severe,Not trying any remedies - Struggling
+negative,male,19-29,anger,yes,Normal,Not trying any remedies - Calm
+neutral,male,<=18,sadness,no,Mild,Not trying any remedies - Struggling
+neutral,female,19-29,awe,no,Moderate,Not trying any remedies - Looking for help
+positive,female,<=18,awe,no,severe,Not trying any remedies - Struggling
+negative,female,>=40,indifference,no,Normal,Not trying any remedies - Calm
+neutral,female,30-39,awe,no,Moderate,Trying Therapies remedies including drugs
+positive,female,30-39,awe,no,Moderate,Not trying any remedies - Looking for help
+positive,male,>=40,sadness,no,Mild,Not trying any remedies - Struggling
+neutral,female,>=40,awe,no,Normal,Not trying any remedies - Calm
+positive,female,>=40,awe,no,Mild,Not trying any remedies - Struggling
+neutral,male,>=40,sadness,yes,severe,Not trying any remedies - Struggling
+negative,male,30-39,amusement,no,Normal,Not trying any remedies - Calm
+neutral,female,19-29,amusement,yes,Moderate,Trying Therapies remedies including drugs
+negative,female,19-29,awe,no,severe,Not trying any remedies - Struggling
+positive,male,30-39,awe,yes,Moderate,Trying Therapies remedies including drugs
+neutral,male,>=40,sadness,no,Mild,Not trying any remedies - Struggling
+positive,male,19-29,indifference,no,severe,Not trying any remedies - Struggling
+positive,male,>=40,indifference,no,severe,Not trying any remedies - Struggling
+negative,female,>=40,amusement,yes,Normal,Not trying any remedies - Calm
+positive,female,19-29,amusement,no,severe,Not trying any remedies - Struggling
+positive,female,19-29,awe,yes,Normal,Not trying any remedies - Calm
+negative,female,19-29,amusement,no,severe,Not trying any remedies - Struggling
+negative,female,>=40,awe,yes,Mild,Not trying any remedies - Struggling
+negative,male,>=40,amusement,yes,Mild,Not trying any remedies - Struggling
+neutral,female,19-29,awe,yes,Normal,Not trying any remedies - Calm
+neutral,male,19-29,amusement,yes,Normal,Not trying any remedies - Calm
+positive,male,30-39,amusement,yes,Mild,Not trying any remedies - Struggling
+positive,male,30-39,awe,no,severe,Not trying any remedies - Struggling
+neutral,male,19-29,negative-fear,yes,severe,Not trying any remedies - Struggling
+neutral,male,<=18,indifference,yes,Moderate,Not trying any remedies - Looking for help
+neutral,female,<=18,amusement,no,severe,Not trying any remedies - Struggling
+positive,female,19-29,indifference,no,Moderate,Not trying any remedies - Looking for help
+positive,female,>=40,amusement,no,Moderate,Not trying any remedies - Looking for help
+negative,male,<=18,annoyance,no,Moderate,Not trying any remedies - Looking for help
+neutral,female,<=18,happy,no,Moderate,Not trying any remedies - Looking for help
+neutral,female,<=18,awe,yes,Normal,Not trying any remedies - Calm
+negative,male,19-29,amusement,no,Mild,Not trying any remedies - Struggling
+neutral,male,30-39,awe,no,Moderate,Not trying any remedies - Looking for help
+positive,male,>=40,amusement,yes,Normal,Not trying any remedies - Calm
+positive,male,19-29,amusement,no,severe,Not trying any remedies - Struggling
+neutral,female,<=18,sadness,no,Moderate,Trying Therapies remedies including drugs
+positive,female,>=40,amusement,no,severe,Not trying any remedies - Struggling
+negative,male,>=40,amusement,yes,Normal,Not trying any remedies - Calm
+neutral,male,19-29,amusement,yes,Moderate,Trying Therapies remedies including drugs
+positive,male,>=40,awe,yes,Mild,Not trying any remedies - Struggling
+positive,female,19-29,amusement,yes,Mild,Not trying any remedies - Struggling
+negative,male,<=18,sadness,no,Mild,Not trying any remedies - Struggling
+negative,male,30-39,amusement,yes,Mild,Not trying any remedies - Struggling
+negative,female,30-39,amusement,yes,Moderate,Trying Therapies remedies including drugs
+positive,female,<=18,negative-fear,yes,severe,Not trying any remedies - Struggling
+positive,male,>=40,sadness,no,Normal,Not trying any remedies - Calm
+negative,male,19-29,amusement,yes,severe,Not trying any remedies - Struggling
+positive,male,<=18,sadness,yes,Moderate,Not trying any remedies - Looking for help
+positive,female,>=40,awe,no,Moderate,Not trying any remedies - Looking for help
+positive,male,>=40,amusement,yes,Moderate,Trying Therapies remedies including drugs
+positive,male,19-29,negative-fear,no,Normal,Not trying any remedies - Calm
+negative,female,<=18,amusement,no,Moderate,Trying Therapies remedies including drugs
+negative,female,19-29,awe,yes,severe,Not trying any remedies - Struggling
+positive,male,19-29,awe,yes,Moderate,Trying Therapies remedies including drugs
+negative,female,>=40,amusement,no,severe,Not trying any remedies - Struggling
+positive,female,>=40,negative-fear,yes,Moderate,Not trying any remedies - Looking for help
+positive,male,<=18,sadness,no,Moderate,Not trying any remedies - Looking for help
+negative,male,<=18,sadness,yes,Normal,Not trying any remedies - Calm
+neutral,male,19-29,sadness,yes,Normal,Not trying any remedies - Calm
+negative,male,>=40,negative-fear,no,Moderate,Trying Therapies remedies including drugs
+neutral,male,>=40,negative-fear,no,severe,Not trying any remedies - Struggling
+positive,female,<=18,negative-fear,no,Normal,Not trying any remedies - Calm
+positive,female,<=18,awe,no,Normal,Not trying any remedies - Calm
+neutral,male,<=18,amusement,yes,Normal,Not trying any remedies - Calm
+positive,female,>=40,awe,yes,Moderate,Trying Therapies remedies including drugs
+positive,male,>=40,sadness,yes,Normal,Not trying any remedies - Calm
+positive,male,>=40,amusement,yes,Mild,Not trying any remedies - Struggling
+negative,female,>=40,awe,no,Moderate,Not trying any remedies - Looking for help
+negative,male,>=40,sadness,no,Moderate,Not trying any remedies - Looking for help
+negative,female,<=18,awe,no,Moderate,Not trying any remedies - Looking for help
+neutral,male,30-39,negative-fear,no,Moderate,Not trying any remedies - Looking for help
+positive,male,>=40,indifference,no,Moderate,Not trying any remedies - Looking for help
+neutral,female,<=18,awe,no,Mild,Not trying any remedies - Struggling
+negative,male,<=18,happy,no,Moderate,Not trying any remedies - Looking for help
+neutral,female,19-29,awe,yes,Moderate,Trying Therapies remedies including drugs
+positive,male,>=40,negative-fear,no,Mild,Not trying any remedies - Struggling
+neutral,female,<=18,amusement,no,Moderate,Trying Therapies remedies including drugs
+neutral,male,<=18,awe,no,Moderate,Trying Therapies remedies including drugs
+neutral,male,19-29,annoyance,no,Mild,Not trying any remedies - Struggling
+neutral,female,<=18,awe,yes,Moderate,Not trying any remedies - Looking for help
+neutral,female,<=18,awe,no,Moderate,Not trying any remedies - Looking for help
+negative,female,<=18,awe,yes,Normal,Not trying any remedies - Calm
+neutral,male,30-39,sadness,no,Moderate,Trying Therapies remedies including drugs
+neutral,male,30-39,indifference,no,Mild,Not trying any remedies - Struggling
+negative,female,19-29,amusement,yes,Moderate,Not trying any remedies - Looking for help
+positive,male,<=18,awe,no,severe,Not trying any remedies - Struggling
+neutral,male,<=18,amusement,no,severe,Not trying any remedies - Struggling
+positive,female,30-39,awe,no,Normal,Not trying any remedies - Calm
+neutral,female,19-29,awe,no,Mild,Not trying any remedies - Struggling
+neutral,female,30-39,amusement,no,severe,Not trying any remedies - Struggling
+negative,female,30-39,amusement,no,Moderate,Trying Therapies remedies including drugs
+negative,male,30-39,negative-fear,no,Moderate,Trying Therapies remedies including drugs
+positive,male,>=40,sadness,yes,severe,Not trying any remedies - Struggling
+negative,male,<=18,sadness,no,Moderate,Not trying any remedies - Looking for help
+neutral,male,<=18,awe,no,severe,Not trying any remedies - Struggling
+neutral,male,19-29,happy,no,Moderate,Not trying any remedies - Looking for help
+negative,male,19-29,awe,no,Mild,Not trying any remedies - Struggling
+positive,female,<=18,sadness,no,Normal,Not trying any remedies - Calm
+positive,female,>=40,indifference,no,Moderate,Not trying any remedies - Looking for help
+positive,male,>=40,negative-fear,no,severe,Not trying any remedies - Struggling
+neutral,female,<=18,awe,no,severe,Not trying any remedies - Struggling
+neutral,male,19-29,sadness,no,Normal,Not trying any remedies - Calm
+neutral,female,>=40,amusement,yes,Normal,Not trying any remedies - Calm
+neutral,male,19-29,awe,yes,Mild,Not trying any remedies - Struggling
+neutral,female,30-39,awe,yes,severe,Not trying any remedies - Struggling
+negative,female,30-39,amusement,no,Moderate,Not trying any remedies - Looking for help
+positive,male,30-39,amusement,no,Moderate,Not trying any remedies - Looking for help
+positive,male,>=40,sadness,no,severe,Not trying any remedies - Struggling
+negative,male,19-29,indifference,no,Moderate,Trying Therapies remedies including drugs
+neutral,male,19-29,awe,yes,severe,Not trying any remedies - Struggling
+positive,male,<=18,awe,yes,Moderate,Trying Therapies remedies including drugs
+positive,male,19-29,sadness,no,Mild,Not trying any remedies - Struggling
+negative,female,>=40,awe,yes,Moderate,Not trying any remedies - Looking for help
+positive,female,19-29,indifference,no,Moderate,Trying Therapies remedies including drugs
+neutral,male,>=40,negative-fear,yes,Normal,Not trying any remedies - Calm
+positive,male,30-39,amusement,no,Moderate,Trying Therapies remedies including drugs
+positive,female,>=40,awe,yes,Moderate,Not trying any remedies - Looking for help
+neutral,male,19-29,awe,yes,Moderate,Trying Therapies remedies including drugs
+negative,male,<=18,amusement,no,Mild,Not trying any remedies - Struggling
+negative,female,>=40,amusement,no,Normal,Not trying any remedies - Calm
+negative,female,<=18,amusement,no,Moderate,Not trying any remedies - Looking for help
+negative,male,19-29,awe,yes,Mild,Not trying any remedies - Struggling
+neutral,male,19-29,negative-fear,no,severe,Not trying any remedies - Struggling
+neutral,female,>=40,amusement,yes,Moderate,Not trying any remedies - Looking for help
+neutral,male,<=18,indifference,no,Normal,Not trying any remedies - Calm
+neutral,female,19-29,awe,yes,Moderate,Not trying any remedies - Looking for help
+negative,male,>=40,awe,yes,Moderate,Trying Therapies remedies including drugs
+neutral,female,30-39,awe,yes,Moderate,Not trying any remedies - Looking for help
+neutral,female,>=40,sadness,no,Moderate,Not trying any remedies - Looking for help
+positive,female,<=18,amusement,yes,severe,Not trying any remedies - Struggling
+neutral,male,19-29,amusement,no,Moderate,Not trying any remedies - Looking for help
+positive,female,>=40,negative-fear,no,Mild,Not trying any remedies - Struggling
+neutral,female,19-29,happy,no,Moderate,Not trying any remedies - Looking for help
+neutral,female,19-29,awe,no,severe,Not trying any remedies - Struggling
+negative,male,<=18,amusement,no,Normal,Not trying any remedies - Calm
+neutral,male,>=40,negative-fear,yes,severe,Not trying any remedies - Struggling
+neutral,female,19-29,amusement,yes,Mild,Not trying any remedies - Struggling
+negative,male,<=18,indifference,no,Moderate,Trying Therapies remedies including drugs
+positive,female,19-29,amusement,no,Moderate,Trying Therapies remedies including drugs
+neutral,female,>=40,indifference,no,Moderate,Trying Therapies remedies including drugs
+positive,female,<=18,amusement,no,Moderate,Trying Therapies remedies including drugs
+positive,female,19-29,awe,no,severe,Not trying any remedies - Struggling
+neutral,male,19-29,sadness,no,Moderate,Not trying any remedies - Looking for help
+positive,female,<=18,amusement,no,Normal,Not trying any remedies - Calm
+negative,male,30-39,sadness,no,Mild,Not trying any remedies - Struggling
+positive,female,<=18,amusement,no,severe,Not trying any remedies - Struggling
+positive,male,>=40,awe,yes,Normal,Not trying any remedies - Calm
+negative,female,>=40,amusement,no,Mild,Not trying any remedies - Struggling
+negative,female,19-29,awe,no,Moderate,Not trying any remedies - Looking for help
+neutral,male,30-39,amusement,no,Mild,Not trying any remedies - Struggling
+negative,female,<=18,sadness,no,Normal,Not trying any remedies - Calm
+neutral,male,30-39,sadness,no,Mild,Not trying any remedies - Struggling
+neutral,female,<=18,indifference,no,Moderate,Not trying any remedies - Looking for help
+neutral,female,19-29,annoyance,no,Moderate,Trying Therapies remedies including drugs
+neutral,female,19-29,sadness,yes,Mild,Not trying any remedies - Struggling
+positive,female,>=40,awe,no,Normal,Not trying any remedies - Calm
+neutral,male,30-39,awe,no,Mild,Not trying any remedies - Struggling
+negative,female,19-29,amusement,no,Moderate,Trying Therapies remedies including drugs
+positive,female,<=18,indifference,no,Normal,Not trying any remedies - Calm
+negative,male,<=18,negative-fear,yes,Moderate,Not trying any remedies - Looking for help

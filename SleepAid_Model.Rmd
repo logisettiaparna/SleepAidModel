@@ -1,0 +1,126 @@
+---
+title: "Lakshmi_SleepAidModel"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggformula)
+library(lubridate)
+```
+
+```{r}
+#sleepAnalysis_ReadyModel_20200722-195051.csv
+#sleepAnalysis_ReadyModel_20200707-215100.csv
+#sleepAnalysis_ReadyModel_20200722-230858.csv
+totalSleepTweets <- read.csv("sleepAnalysis_ReadyModel_20200725-144837.csv")
+totalSleepTweets
+```
+
+## R Markdown
+
+```{r sleep}
+#totalSleepTweets <- read.csv("sleepAnalysis_ReadyModel_20200707-215100.csv")
+#totalSleepTweets
+```
+
+```{r }
+totalSleepTweets %>% 
+  gf_bar(~ age ,fill =~ gender)
+
+```
+
+```{r }
+totalSleepTweets %>%  
+  gf_bar(~ emotion ,fill =~ severity)
+
+```
+
+```{r }
+totalSleepTweets %>% 
+  gf_bar(~ age ,fill =~Remedies)
+
+
+```
+
+```{r }
+totalSleepTweets %>% 
+  gf_bar(~ severity ,fill =~Remedies)
+
+
+```
+
+```{r }
+totalSleepTweets %>% 
+  gf_bar(~ emotion ,fill =~ Remedies) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+```
+
+
+```{r}
+###DECISION TREE
+library(caTools)
+library(rpart)
+library(rpart.plot)
+library(rattle)
+library(ggdendro)
+library(ggplot2)
+
+
+set.seed(14, sample.kind = "Rounding")
+sample = sample.split(totalSleepTweets,SplitRatio = 0.95) 
+cosmetics_train =subset(totalSleepTweets,sample ==TRUE) 
+cosmetics_test=subset(totalSleepTweets, sample==FALSE)
+
+cosmeticsTree = rpart(Remedies ~.,cosmetics_train)
+rpart.plot(cosmeticsTree)
+#text(cosmeticsTree,pretty = 0)
+
+model <- rpart(Remedies ~ ., method = "class", data = totalSleepTweets)
+ddata <- dendro_data(model)
+
+ggplot() + 
+    geom_segment(data = ddata$segments, 
+                 aes(x = x, y = y, xend = xend, yend = yend)) + 
+    geom_text(data = ddata$labels, 
+              aes(x = x, y = y, label = label), size = 3, vjust = 0) +
+    geom_text(data = ddata$leaf_labels, 
+              aes(x = x, y = y, label = label), size = 3, vjust = 1) +
+    theme_dendro()
+
+cosmeticsTree.pred = predict(cosmeticsTree,cosmetics_test,type = "class")
+
+#Confusion
+confusionMatrix=table(cosmeticsTree.pred,cosmetics_test$Remedies)
+
+print("Decision Tree Accuracy:::")
+#validation set prediction rate?
+accuracy = (sum(diag(confusionMatrix))/sum(confusionMatrix))
+accuracy
+```
+
+
+```{r}
+###NEURAL NETWORK
+library(NeuralNetTools)
+library(ISLR)
+library(nnet)
+
+set.seed(14, sample.kind = "Rounding")
+cosmeticNNetFit = nnet(Remedies ~gender + age + severity, data = totalSleepTweets, size = 8,maxit=100,trace=FALSE)
+plotnet(cosmeticNNetFit, pad_x=0.9, cex_val=0.7)
+cosmeticsNNet.pred = predict(cosmeticNNetFit,cosmetics_test,type = "class")
+
+#Confusion
+confusionMatrix = table(cosmeticsNNet.pred,cosmetics_test$Remedies)
+
+print("NEURAL NETWORK Accuracy:::")
+accuracy = (sum(diag(confusionMatrix))/sum(confusionMatrix))
+accuracy
+```
+
+
+
+
+
